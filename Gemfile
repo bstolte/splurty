@@ -35,6 +35,9 @@ end
 # Twitter Bootstrap Sass
 gem 'bootstrap-sass', '~> 3.3.4'
 
+# Simple Form gem. Read more: https://github.com/plataformatec/simple_form
+gem 'simple_form'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
