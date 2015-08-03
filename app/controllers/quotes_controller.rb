@@ -8,7 +8,10 @@ class QuotesController < ApplicationController
 	end
 
 	def create
-		Quote.create(quote_params)
+		@quote = Quote.create(quote_params)
+		if @quote.invalid?
+			flash[:error] = '<strong>Could not save!</strong> Only long guitar solos allowed, keep the quotes to 3 to 140 characters and the author to 3 to 50 characters.'
+		end
 		redirect_to root_path
 	end
 
