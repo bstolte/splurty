@@ -26,7 +26,7 @@
 	/* Traditional Garamond-based serif stack */
 	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 	font-style: italic;
-	padding-top: 26px; 
+	padding-top: 34px; 
 }
 
 .links {
@@ -36,9 +36,8 @@
 .links a {
 	color: black;
 	font-size: 25px;
-	border-bottom: 1px solid #7881C2;
-	font-family: 'quicksandregular', sans-serif;
-//	text-decoration: none; 
+//	border-bottom: 1px solid #7881C2;
+	font-family: 'quicksandregular', sans-serif; 
 }
 
 header {
