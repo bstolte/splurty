@@ -1,5 +1,5 @@
 == SPLURTY 
 
-Part of the Firehose Project course work. 
+Part of the http://www.thefirehoseproject.com/ course work. 
 
 Shows a random quote (from guitar players in this version) and allows users to enter quotes as well.  
