@@ -58,6 +58,15 @@ h2 {
 	font-family: 'quicksanditalic', sans-serif;
 }
 
+h3 {
+  font-family: 'quicksanditalic', sans-serif;
+}
+
+h2 span {
+  color: #B3B3B3;
+  font-family: 'quicksandregular', sans-serif;
+}
+
 .next-quote {
 	color: #f84342;
 	font-family: 'quicksandbold_italic', sans-serif;
@@ -82,4 +91,17 @@ h2 {
   padding-top: 26px; 
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
 
