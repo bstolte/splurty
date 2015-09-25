@@ -11,4 +11,18 @@ class QuotesControllerTest < ActionController::TestCase
   	get :show, :id => 'OMG'
   	assert_response :not_found
   end
+
+  test "create a quote succes" do
+  	post :create, {:quote => {
+  		:saying => "To be or not to be",
+  		:author => "William Shakespeare"
+  		} 
+  	}
+  	assert_redirect_to root_path
+  end
+
+  test "create a quote validation error" do
+  	
+  end
+
 end
